@@ -97,12 +97,12 @@ publications:
   - title: A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12031/120313B/A-truth-based-primal-dual-learning-approach-to-reconstruct-CT/10.1117/12.2613168.pdf"
     authors: Mojtaba Zarei, Saman Sotoudeh-Paima, Ehsan Abadi, Ehsan Samei
-    conference: Medical Imaging 2022: Physics of Medical Imaging
+    conference: Medical Imaging 2022, Physics of Medical Imaging
 
   - title: Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203337/Optimization-of-imaging-parameters-of-an-investigational-photon-counting-CT/10.1117/12.2612973.pdf"
     authors: Cindy McCabe, Mojtaba Zarei, W Paul Segars, Ehsan Samei, Ehsan Abadi
-    conference: Medical Imaging 2022: Computer-Aided Diagnosis
+    conference: Medical Imaging 2022, Computer-Aided Diagnosis
     
   - title: Probabilistic conformance for cyber-physical systems
     link: "https://dl.acm.org/doi/pdf/10.1145/3450267.3450534"
@@ -112,7 +112,7 @@ publications:
   - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
     authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
-    conference: Medical Imaging 2021: Physics of Medical Imaging
+    conference: Medical Imaging 2021, Physics of Medical Imaging
 
 
 # projects:
