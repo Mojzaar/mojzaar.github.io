@@ -44,7 +44,7 @@ skills:
       - Matlab
       - Mathematica
       - Solidworks/CATIA
-      - Robot Operating System (ROS)/Gazebo
+      - ROS/Gazebo
   - category: DevOps
     skill:
       - Docker
@@ -80,37 +80,66 @@ experience:
       The developed algorithms indicate whether a complex system is capable of satisfying a set of desired specifications or not. 
     technologies_used: | 
       Python, Matlab, Webots, Gazebo, ROS
+      
+  - role: Researcher
+    time: 2014-2018
+    company: Human and Robot Interation Lab (TaarLab)
+    details: |
+      Controlling autonomous vehicles requires a combination of human and intelligence units. Thus, such systems face a number of challenges, including
+      controlling the mobile device smoothly, avoiding obstacles in dynamic environments, and combining sensory data so that the most useful and informative
+      information is used to make a proper decision. For my master's thesis, I developed several obstacle avoidance algorithms and developed a design criteria
+      to synthesize the anti-oscillation controllers. Additionally, designing real-world robots and working with real commercial robots helps me to develop data
+      fusion algorithms that preprocess sensory data and use them for more accurate system feedback.
+    technologies_used: | 
+      Matlab, Gazebo, ROS, C++, Gorubi
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - title: A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12031/120313B/A-truth-based-primal-dual-learning-approach-to-reconstruct-CT/10.1117/12.2613168.pdf"
+    authors: Mojtaba Zarei, Saman Sotoudeh-Paima, Ehsan Abadi, Ehsan Samei
+    conference: Medical Imaging 2022: Physics of Medical Imaging
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - title: Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203337/Optimization-of-imaging-parameters-of-an-investigational-photon-counting-CT/10.1117/12.2612973.pdf"
+    authors: Cindy McCabe, Mojtaba Zarei, W Paul Segars, Ehsan Samei, Ehsan Abadi
+    conference: Medical Imaging 2022: Computer-Aided Diagnosis
+    
+  - title: Probabilistic conformance for cyber-physical systems
+    link: "https://dl.acm.org/doi/pdf/10.1145/3450267.3450534"
+    authors: Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpoor, Miroslav Pajic
+    conference: Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021: Physics of Medical Imaging
 
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+# projects:
+#   - title: Cool Project 
+#     link: #
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua.
+
+#   - title: Cool Project 
+#     link: #
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua.
 
 # Volunteering
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - time: 2019-2022
+    role: President/Vic-President/Treasurer
+    company: Graduate Student Association of Iranians at Duke
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      The board member's responsibilities included introducing Iranian culture, art, and literature to other Duke University communities.
+      In addition, the board member provided a supportive environment for Iranian students at Duke University to reflect on their needs,
+      comments, and achievements in their new environment. During the last three years, we have hosted over 60 different events, which was
+      impossible for a small community like ours without the support and passion of members and officers at Duke.
+      
+  - time: 2016-2017
+    role: Co-funder/Board member
+    company: Literature and cultural center of the NST department at UT
+
