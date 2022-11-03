@@ -29,26 +29,38 @@ education:
     time: 2008-2012
     university: Isfahan University of Technology
 
+# skills:
+#   - category: Optimization
+#     skill: 
+#       - Gorubi
+#       - Yalmip
+#   - category: Machine Learning
+#     skill:
+#       - Scikit Learn
+#       - Pytorch
+#       - Tensorflow
+#   - category: Robotics and Control
+#     skill:
+#       - Matlab
+#       - Mathematica
+#       - Solidworks/CATIA
+#       - Robot Operating System (ROS)/Gazebo
+#    - category: DevOps
+#     skill:
+#       - Docker
 skills:
-  - category: Optimization
+  - category: Backend
     skill: 
-      - Gorubi
-      - Yalmip
-  - category: Machine Learning
+      - Go
+      - Rust
+  - category: Frontend
     skill:
-      - Scikit Learn
-      - Pytorch
-      - Tensorflow
-  - category: Robotics and Control
-    skill:
-      - Matlab
-      - Mathematica
-      - Solidworks/CATIA
-      - Robot Operating System (ROS)/Gazebo
-   - category: DevOps
+      - React
+      - Typescript
+  - category: DevOps
     skill:
       - Docker
-
+      - Kubernetes 
 # Profile
 profile: |
   The study of science is something I am passionate about. I enjoy looking at scientific problems from different perspectives and angles.
