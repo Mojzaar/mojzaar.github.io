@@ -73,16 +73,12 @@ experience:
     time: 2020-Present
     company: Carl E. Ravin Advanced Imaging Laboratories (RAI Labs)
     details: |
-    As a member of the Center of Virtual Imaging Trials (CVIT), I aim to optimize the quality of medical images through virtual acquisition.
-    Virtual patients and scanners enable us to collect a sufficient number of training datasets and target references.
-    Furthermore, virtual data is used for technical development of new algorithms without compromising the privacy or well-being of patients. 
-    My work in CVIT focused on optimizing the protocol selection guidelines to improve radiologist evaluation of images.
-    I developed physics-informed Deep Neural Networks (DNNs) to reduce variability in images acquired by different centers/systems that are influenced by
-    scanning processes. 
-    #To conduce a successful assesment or diagnoistic imaging procedure different components play their important role. The patients registration,
-    #employed system to perform the imaging, the adopted protocols to be set for the imaging systems, and post processing and measurment metrics radiologist use
-    #to evaluate the obtained images have their significant impact on the final results and desicion. 
-    #Optimizing the medical images can be carried out in 1) prospective and 2) retrospective way. The first 
+      As a member of the Center of Virtual Imaging Trials (CVIT), I aim to optimize the quality of medical images through virtual acquisition.
+      Virtual patients and scanners enable us to collect a sufficient number of training datasets and target references.
+      Furthermore, virtual data is used for technical development of new algorithms without compromising the privacy or well-being of patients. 
+      My work in CVIT focused on optimizing the protocol selection guidelines to improve radiologist evaluation of images.
+      I developed physics-informed Deep Neural Networks (DNNs) to reduce variability in images acquired by different centers/systems that are influenced by
+      scanning processes. 
     technologies_used: | 
       Machine Learning, Polynomial Optimization, Deep Learning, Data Science, Python, Pytorch, Yalmip, Gorubi, Matlab
   
