@@ -1,77 +1,89 @@
-name: John Doe
+name: Mojtaba Zarei
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
+  email: mojtaba.zarei@duke.edu
+  github: mojzaar
+  linkedin: mojzar
   phone: 
   gitlab: 
-  twitter: 
+  twitter: mojzaar
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Persian
+  - idiom: Arabic
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: Ph.D. Candidate in Electrical and Computer Engineering
+    time: 2018-2023
+    university: Duke University
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: MSc in Mechatronics 
+    time: 2014-2017
+    university: University of Tehran
+    
+  - degree: BSc in Mechanical Engineering 
+    time: 2008-2012
+    university: Isfahan University of Technology
 
 skills:
-  - category: Backend
+  - category: Optimization
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
+      - Gorubi
+      - Yalmip
+  - category: Machine Learning
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - Scikit Learn
+      - Pytorch
+      - Tensorflow
+  - category: Robotics and Control
+    skill:
+      - Matlab
+      - Mathematica
+      - Solidworks/CATIA
+      - Robot Operating System (ROS)/Gazebo
+   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  The study of science is something I am passionate about. I enjoy looking at scientific problems from different perspectives and angles.
+  This drive has always motivated me to learn innovative and diverse expertise so that I can challenge my knowledge.
+  The solutions I come up with in my studies usually involve solid mathematics and statistics combined with learning algorithms.  
 
 # Experience
 experience:
-  - role: Software Engineer
+  - role: Research Assistance
     time: 2020-Present
-    company: Google
+    company: Carl E. Ravin Advanced Imaging Laboratories (RAI Labs)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+    As a member of the Center of Virtual Imaging Trials (CVIT), I aim to optimize the quality of medical images through virtual acquisition.
+    Virtual patients and scanners enable us to collect a sufficient number of training datasets and target references.
+    Furthermore, virtual data is used for technical development of new algorithms without compromising the privacy or well-being of patients. 
+    My work in CVIT focused on optimizing the protocol selection guidelines to improve radiologist evaluation of images.
+    I developed physics-informed Deep Neural Networks (DNNs) to reduce variability in images acquired by different centers/systems that are influenced by
+    scanning processes. 
+    #To conduce a successful assesment or diagnoistic imaging procedure different components play their important role. The patients registration,
+    #employed system to perform the imaging, the adopted protocols to be set for the imaging systems, and post processing and measurment metrics radiologist use
+    #to evaluate the obtained images have their significant impact on the final results and desicion. 
+    #Optimizing the medical images can be carried out in 1) prospective and 2) retrospective way. The first 
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Machine Learning, Polynomial Optimization, Deep Learning, Data Science, Python, Pytorch, Yalmip, Gorubi, Matlab
   
   - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+    time: 2018-2020
+    company: Cyber Physical Security Lab (CPSL)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      A safety-critical system, such as an autonomous vehicle or medical device, directly affects human life quality. 
+      Today, these systems are equipped with a variety of technologies, and each component has a significant impact on the final outcome and safety.
+      My research involves the development of stochastic model-checking algorithms for learning-enabled CPL systems such as robots, vehicles, and power systems.
+      The developed algorithms indicate whether a complex system is capable of satisfying a set of desired specifications or not. 
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Python, Matlab, Webots, Gazebo, ROS
 
 publications:
   - title: Random title of paper. An interesting one.
@@ -105,4 +117,4 @@ volunteering:
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
