@@ -17,7 +17,7 @@ languages:
   - idiom: Arabic
 
 education:
-  - degree: Ph.D. in Electrical and Computer Engineering
+  - degree: Ph.D. in ECE
     time: 2018-2023
     university: Duke University
 
@@ -25,7 +25,7 @@ education:
     time: 2014-2017
     university: University of Tehran
     
-  - degree: BSc in Mechanical Engineering 
+  - degree: BSc in ME
     time: 2008-2012
     university: Isfahan University of Technology
 
