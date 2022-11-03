@@ -45,7 +45,7 @@ skills:
       - Mathematica
       - Solidworks/CATIA
       - Robot Operating System (ROS)/Gazebo
-   - category: DevOps
+  - category: DevOps
     skill:
       - Docker
  
