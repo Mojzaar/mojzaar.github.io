@@ -6,7 +6,7 @@ fork: true
 contact:
   email: mojtaba.zarei@duke.edu
   github: mojzaar
-  linkedin: mojzaar
+  linkedin: mojzar
   phone: 
   gitlab: 
   twitter: mojzaar
@@ -131,7 +131,7 @@ publications:
 # Volunteering
 volunteering:
   - time: 2019-2022
-    role: President/Vic-President/Treasurer
+    role: President/Vice-President/Treasurer
     company: Graduate Student Association of Iranians at Duke
     details: |
       The board member's responsibilities included introducing Iranian culture, art, and literature to other Duke University communities.
