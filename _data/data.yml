@@ -113,6 +113,82 @@ publications:
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
     authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
     conference: Medical Imaging 2021, Physics of Medical Imaging
+    
+  - title: A probabilistic conditional adversarial neural network to reduce imaging variation in radiography (Best Poster Award)
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/115953Y/A-probabilistic-conditional-adversarial-neural-network-to-reduce-imaging-variation/10.1117/12.2582336.short?SSO=1"
+    authors: Mojtaba Zarei, Ehsan Abadi, Rafael Fricks, W Paul Segars, Ehsan Samei
+    conference: Medical imaging 2021, Physics of medical imaging
+    
+  - title: Statistical verification of learning-based cyber-physical systems
+    link: "https://dl.acm.org/doi/pdf/10.1145/3365365.3382209"
+    authors: Mojtaba Zarei, Yu Wang, Miroslav Pajic
+    conference: Proceedings of the 23rd International Conference on Hybrid Systems, Computation and Control
+    
+  - title: Experimental study on shared-control of a mobile robot via a haptic device with an optimal velocity obstacle based receding horizon control approach (Featured on journal cover page)
+    link: "https://www.researchgate.net/profile/Mojtaba-Zarei-7/publication/332470163_Experimental_Study_on_Shared-Control_of_a_Mobile_Robot_via_a_Haptic_Device_with_an_Optimal_Velocity_Obstacle_Based_Receding_Horizon_Control_Approach/links/5e63e7f192851c7ce04ede4e/Experimental-Study-on-Shared-Control-of-a-Mobile-Robot-via-a-Haptic-Device-with-an-Optimal-Velocity-Obstacle-Based-Receding-Horizon-Control-Approach.pdf"
+    authors: Mojtaba Zarei, Navid Kashi, Ahmad Kalhor, Mehdi Tale Masouleh
+    conference: Journal of Intelligent & Robotic Systems
+    
+  - title: Statistical verification of hyperproperties for cyber-physical systems (Best paper finalist candidate)
+    link: "https://dl.acm.org/doi/pdf/10.1145/3358232"
+    authors: Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpour, Miroslav Pajic
+    conference: ACM Transactions on Embedded Computing Systems (TECS)
+    
+  - title: An experimental oscillation damping impedance control for the novint falcon haptic device based on the phase trajectory length function concept
+    link: "https://www.researchgate.net/profile/Mojtaba-Zarei-7/publication/327533427_An_experimental_oscillation_damping_impedance_control_for_the_Novint_Falcon_haptic_device_based_on_the_phase_trajectory_length_function_concept/links/5bb516c692851ca9ed3793b6/An-experimental-oscillation-damping-impedance-control-for-the-Novint-Falcon-haptic-device-based-on-the-phase-trajectory-length-function-concept.pdf"
+    authors: Mojtaba Zarei, Ahmad Kalhor, Mehdi Tale Masouleh
+    conference: Proceedings of the Institution of Mechanical Engineers, Part C, Journal of Mechanical Engineering Science
+    
+  - title: Oscillation damping of nonlinear control systems based on the phase trajectory length concept: An experimental case study on a cable-driven parallel robot
+    link: "https://www.sciencedirect.com/science/article/pii/S0094114X18300260"
+    authors: Mojtaba Zarei, Ali Aflakian, Ahmad Kalhor, Mehdi Tale Masouleh
+    conference: Mechanism and Machine Theory
+    
+  - title: Employing phase trajectory length concept as performance index in linear power oscillation damping controllers
+    link: "https://www.sciencedirect.com/science/article/pii/S0142061517314357"
+    authors:Mojtaba Zarei, Ahmad Kalhor, Mohammad Rastegar
+    conference: International Journal of Electrical Power & Energy Systems
+    
+  - title: Experimental dynamic identification and model feed-forward control of Novint Falcon haptic device
+    link: "https://www.researchgate.net/profile/Nima-Karbasizadeh/publication/323694937_Experimental_dynamic_identification_and_model_feed-forward_control_of_Novint_Falcon_haptic_device/links/5b618ca2aca272a2d679291c/Experimental-dynamic-identification-and-model-feed-forward-control-of-Novint-Falcon-haptic-device.pdf"
+    authors: Nima Karbasizadeh, Mojtaba Zarei, Ali Aflakian, Mehdi Tale Masouleh, Ahmad Kalhor
+    conference: Mechatronics
+    
+  - title: Arc Length based Maximal Lyapunov Functions and domains of attraction estimation for polynomial nonlinear systems
+    link: "https://www.sciencedirect.com/science/article/pii/S000510981730643X"
+    authors: Mojtaba Zarei, Ahmad Kalhor, Dani Brake
+    conference: Automatica
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021, Physics of Medical Imaging
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021, Physics of Medical Imaging
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021, Physics of Medical Imaging
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021, Physics of Medical Imaging
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021, Physics of Medical Imaging
+    
+  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
+    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
+    conference: Medical Imaging 2021, Physics of Medical Imaging
+ 
 
 
 # projects:
