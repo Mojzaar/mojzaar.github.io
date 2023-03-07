@@ -51,9 +51,9 @@ skills:
  
 # Profile
 profile: |
-  The study of science is something I am passionate about. I enjoy looking at scientific problems from different perspectives and angles.
-  This drive has always motivated me to learn innovative and diverse expertise so that I can challenge my knowledge.
-  The solutions I come up with in my studies usually involve solid mathematics and statistics combined with learning algorithms.  
+  Science is a subject that deeply fascinates me. I take pleasure in exploring scientific dilemmas from various viewpoints and approaches.
+  My passion fuels my eagerness to acquire unconventional and multifarious skills, which enables me to broaden my understanding
+  My research methodologies typically involve robust mathematical and statistical techniques, complemented by advanced learning algorithms to produce effective solutions.
 
 # Experience
 experience:
@@ -61,12 +61,11 @@ experience:
     time: 2020-Present
     company: Carl E. Ravin Advanced Imaging Laboratories (RAI Labs)
     details: |
-      As a member of the Center of Virtual Imaging Trials (CVIT), I aim to optimize the quality of medical images through virtual acquisition.
-      Virtual patients and scanners enable us to collect a sufficient number of training datasets and target references.
-      Furthermore, virtual data is used for technical development of new algorithms without compromising the privacy or well-being of patients. 
-      My work in CVIT focused on optimizing the protocol selection guidelines to improve radiologist evaluation of images.
-      I developed physics-informed Deep Neural Networks (DNNs) to reduce variability in images acquired by different centers/systems that are influenced by
-      scanning processes. 
+      As a member of the Center of Virtual Imaging Trials (CVIT), my goal is to enhance the quality of medical images through virtual acquisition.
+      By utilizing virtual patients and scanners, we can gather enough training datasets and target references without jeopardizing patient privacy or well-being. 
+      At CVIT, I concentrate on refining the protocol selection guidelines to improve radiologist image evaluation.
+      I have also created physics-informed Deep Neural Networks (DNNs) to minimize image variability caused by scanning processes from various centers/systems. 
+      Additionally, I've developed automated pipelines that extract relevant biomarkers to enable precise and reliable quantification of medical images.
     technologies_used: | 
       Machine Learning, Polynomial Optimization, Deep Learning, Data Science, Python, Pytorch, Yalmip, Gorubi, Matlab
   
@@ -74,10 +73,10 @@ experience:
     time: 2018-2020
     company: Cyber Physical Security Lab (CPSL)
     details: |
-      A safety-critical system, such as an autonomous vehicle or medical device, directly affects human life quality. 
-      Today, these systems are equipped with a variety of technologies, and each component has a significant impact on the final outcome and safety.
-      My research involves the development of stochastic model-checking algorithms for learning-enabled CPL systems such as robots, vehicles, and power systems.
-      The developed algorithms indicate whether a complex system is capable of satisfying a set of desired specifications or not. 
+      I focus on the importance of safety-critical systems, such as medical devices or autonomous vehicles, as they directly impact human well-being.
+      With the ever-evolving technologies embedded in these systems, each component plays a crucial role in ensuring the final outcome is safe and reliable.
+      Through my research, I specialize in creating stochastic model-checking algorithms specifically designed for learning-enabled systems like robots, vehicles, and power systems.
+      These algorithms assess whether a complex system can meet the desired specifications and rely on a unique stochastic model checking approach to gauge the system's reliability within a given confidence interval.
     technologies_used: | 
       Python, Matlab, Webots, Gazebo, ROS
       
