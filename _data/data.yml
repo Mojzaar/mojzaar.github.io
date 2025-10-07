@@ -1,187 +1,277 @@
-name: Mojtaba Zarei
-support_dark_mode: true
-fork: true
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mojtaba Zarei | AI/ML Scientist</title>
+  <meta name="description" content="Mojtaba Zarei — AI/ML Scientist & CT Clinical Scientist. Optimization, medical imaging, trustworthy AI." />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0b1021;
+      --muted: #5b6178;
+      --accent: #0ea5e9;
+      --card: #f6f7fb;
+      --chip: #eef2ff;
+      --link: #2563eb;
+      --border: #e5e7eb;
+    }
+    [data-theme="dark"] {
+      --bg: #0b1021;
+      --fg: #f1f5f9;
+      --muted: #b6bed3;
+      --accent: #22d3ee;
+      --card: #12172b;
+      --chip: #1f2937;
+      --link: #93c5fd;
+      --border: #1f2937;
+    }
+    html, body { height: 100%; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: var(--bg); color: var(--fg); }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { display: grid; grid-template-columns: 320px 1fr; gap: 28px; max-width: 1200px; margin: 0 auto; padding: 28px; }
+    .sidebar { position: sticky; top: 20px; align-self: start; border: 1px solid var(--border); background: var(--card); border-radius: 16px; padding: 22px; }
+    .main { display: grid; gap: 24px; }
+    .name { font-size: 28px; font-weight: 800; letter-spacing: .2px; }
+    .tag { color: var(--muted); margin-top: 6px; }
+    .section { border: 1px solid var(--border); border-radius: 16px; background: var(--card); padding: 22px; }
+    .section h2 { margin: 0 0 12px; font-size: 18px; text-transform: uppercase; letter-spacing: 1.2px; opacity: .9; }
+    .list { display: grid; gap: 14px; }
+    .item h3 { margin: 0; font-size: 17px; }
+    .sub { color: var(--muted); font-size: 14px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .chip { background: var(--chip); border: 1px solid var(--border); border-radius: 999px; padding: 6px 10px; font-size: 13px; }
+    .meta { display:flex; gap: 10px; align-items:center; flex-wrap: wrap; }
+    .contacts a { display:flex; align-items:center; gap:8px; padding:6px 10px; border-radius: 8px; border:1px solid var(--border); background: var(--bg); }
+    .contacts { display: grid; gap: 8px; margin-top: 12px; }
+    .lang { display:flex; gap:8px; flex-wrap: wrap; }
+    .footer { color: var(--muted); font-size: 12px; text-align:center; padding: 18px 0 24px; }
+    .ribbon { position: fixed; right: -42px; top: 18px; transform: rotate(45deg); background: var(--accent); color: #0b1021; padding: 8px 52px; font-weight: 700; border: 0; text-decoration: none; box-shadow: 0 6px 16px rgba(0,0,0,.18); }
+    .toolbar { display:flex; justify-content: space-between; align-items:center; margin-bottom: 12px; }
+    .toggle { border:1px solid var(--border); background: var(--bg); color: var(--fg); padding: 8px 12px; border-radius: 10px; cursor: pointer; }
+    .grid-2 { display:grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 980px) { .wrap { grid-template-columns: 1fr; } .sidebar { position: static; } }
+  </style>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const mode = saved || (prefers ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', mode);
+    })();
+    function toggleTheme(){
+      const el = document.documentElement;
+      const next = el.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
+</head>
+<body>
+  <a class="ribbon" href="https://github.com/mojzaar" target="_blank" rel="noopener">Fork me</a>
+  <div class="wrap">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="name">Mojtaba Zarei, Ph.D.</div>
+      <div class="tag">AI/ML Scientist · CT Clinical Scientist</div>
+      <div class="section" style="margin-top:16px">
+        <h2>Contact</h2>
+        <div class="contacts">
+          <a href="mailto:mojtaba.zarei@duke.edu">mojtaba.zarei@duke.edu</a>
+          <a href="https://github.com/mojzaar" target="_blank" rel="noopener">github.com/mojzaar</a>
+          <a href="https://www.linkedin.com/in/mojzar" target="_blank" rel="noopener">linkedin.com/in/mojzar</a>
+          <a href="https://twitter.com/mojzaar" target="_blank" rel="noopener">@mojzaar</a>
+        </div>
+      </div>
 
-# Sidebar
-contact:
-  email: mojtaba.zarei@duke.edu
-  github: mojzaar
-  linkedin: mojzar
-  phone: 
-  gitlab: 
-  twitter: mojzaar
+      <div class="section">
+        <h2>Languages</h2>
+        <div class="lang">
+          <span class="chip">English</span>
+          <span class="chip">Persian</span>
+          <span class="chip">Arabic</span>
+        </div>
+      </div>
 
-languages:
-  - idiom: English
-  - idiom: Persian
-  - idiom: Arabic
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="list">
+          <div>
+            <div class="item"><h3>Optimization</h3></div>
+            <div class="chips"><span class="chip">Gurobi</span><span class="chip">YALMIP</span></div>
+          </div>
+          <div>
+            <div class="item"><h3>Machine Learning</h3></div>
+            <div class="chips"><span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">scikit-learn</span></div>
+          </div>
+          <div>
+            <div class="item"><h3>Robotics & Control</h3></div>
+            <div class="chips"><span class="chip">MATLAB</span><span class="chip">Mathematica</span><span class="chip">SolidWorks/CATIA</span><span class="chip">ROS/Gazebo</span></div>
+          </div>
+          <div>
+            <div class="item"><h3>DevOps</h3></div>
+            <div class="chips"><span class="chip">Docker</span></div>
+          </div>
+        </div>
+      </div>
 
-education:
-  - degree: Ph.D. in ECE
-    time: 2018-2023
-    university: Duke University
+      <div class="section">
+        <h2>Education</h2>
+        <div class="list">
+          <div class="item">
+            <h3>Ph.D., Electrical & Computer Engineering</h3>
+            <div class="sub">Duke University · 2018–2023</div>
+          </div>
+          <div class="item">
+            <h3>M.Sc., Mechatronics</h3>
+            <div class="sub">University of Tehran · 2014–2017</div>
+          </div>
+          <div class="item">
+            <h3>B.Sc., Mechanical Engineering</h3>
+            <div class="sub">Isfahan University of Technology · 2008–2012</div>
+          </div>
+        </div>
+      </div>
 
-  - degree: MSc in Mechatronics 
-    time: 2014-2017
-    university: University of Tehran
-    
-  - degree: BSc in ME
-    time: 2008-2012
-    university: Isfahan University of Technology
+    </aside>
 
-skills:
-  - category: Optimization
-    skill: 
-      - Gorubi
-      - Yalmip
-  - category: Machine Learning
-    skill: 
-      - Scikit Learn
-      - Pytorch
-      - Tensorflow
-  - category: Robotics and Control
-    skill: 
-      - Matlab
-      - Mathematica
-      - Solidworks/CATIA
-      - ROS/Gazebo
-  - category: DevOps
-    skill:
-      - Docker
- 
-# Profile
-profile: |
-  Science is a subject that deeply fascinates me. I take pleasure in exploring scientific dilemmas from various viewpoints and approaches.
-  My passion fuels my eagerness to acquire unconventional and multifarious skills, which enables me to broaden my understanding
-  My research methodologies typically involve robust mathematical and statistical techniques, complemented by advanced learning algorithms to produce effective solutions.
+    <!-- Main content -->
+    <main class="main">
+      <div class="toolbar">
+        <div></div>
+        <button class="toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+      </div>
 
-# Experience
-experience:
-  - role: Research Assistance
-    time: 2020-Present
-    company: Carl E. Ravin Advanced Imaging Laboratories (RAI Labs)
-    details: |
-      As a member of the Center of Virtual Imaging Trials (CVIT), my goal is to enhance the quality of medical images through virtual acquisition.
-      By utilizing virtual patients and scanners, we can gather enough training datasets and target references without jeopardizing patient privacy or well-being. 
-      At CVIT, I concentrate on refining the protocol selection guidelines to improve radiologist image evaluation.
-      I have also created physics-informed Deep Neural Networks (DNNs) to minimize image variability caused by scanning processes from various centers/systems. 
-      Additionally, I've developed automated pipelines that extract relevant biomarkers to enable precise and reliable quantification of medical images.
-    technologies_used: | 
-      Machine Learning, Polynomial Optimization, Deep Learning, Data Science, Python, Pytorch, Yalmip, Gorubi, Matlab
-  
-  - role: Researcher
-    time: 2018-2020
-    company: Cyber Physical Security Lab (CPSL)
-    details: |
-      I focus on the importance of safety-critical systems, such as medical devices or autonomous vehicles, as they directly impact human well-being.
-      With the ever-evolving technologies embedded in these systems, each component plays a crucial role in ensuring the final outcome is safe and reliable.
-      Through my research, I specialize in creating stochastic model-checking algorithms specifically designed for learning-enabled systems like robots, vehicles, and power systems.
-      These algorithms assess whether a complex system can meet the desired specifications and rely on a unique stochastic model checking approach to gauge the system's reliability within a given confidence interval.
-    technologies_used: | 
-      Python, Matlab, Webots, Gazebo, ROS
-      
-  - role: Researcher
-    time: 2014-2018
-    company: Human and Robot Interation Lab (TaarLab)
-    details: |
-      Controlling autonomous vehicles requires a combination of human and intelligence units. Thus, such systems face a number of challenges, including
-      controlling the mobile device smoothly, avoiding obstacles in dynamic environments, and combining sensory data so that the most useful and informative
-      information is used to make a proper decision. For my master's thesis, I developed several obstacle avoidance algorithms and developed a design criteria
-      to synthesize the anti-oscillation controllers. Additionally, designing real-world robots and working with real commercial robots helps me to develop data
-      fusion algorithms that preprocess sensory data and use them for more accurate system feedback.
-    technologies_used: | 
-      Matlab, Gazebo, ROS, C++, Gorubi
+      <section class="section">
+        <h2>Profile</h2>
+        <p>
+          I build AI/ML systems that improve medical imaging quality and workflow efficiency. My work blends rigorous optimization and
+          statistical methods with deep learning to deliver reliable, clinically meaningful solutions. I enjoy translating clinical questions into
+          deployable models and collaborating across imaging science, product, and clinical teams.
+        </p>
+      </section>
 
-publications:
-  - title: A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform
-    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12031/120313B/A-truth-based-primal-dual-learning-approach-to-reconstruct-CT/10.1117/12.2613168.pdf"
-    authors: Mojtaba Zarei, Saman Sotoudeh-Paima, Ehsan Abadi, Ehsan Samei
-    conference: Medical Imaging 2022, Physics of Medical Imaging
+      <section class="section">
+        <h2>Experience</h2>
+        <div class="list">
+          <div class="item">
+            <h3>CT Clinical Scientist</h3>
+            <div class="sub">GE HealthCare · 2023–Present</div>
+            <p>
+              Lead validation and deployment of AI-enabled CT workflow automation (e.g., dual-energy map generation, orientation automation),
+              multi-site collaborations on health-economic impact (reduced acquisition time, radiologist/technologist load), and recommender systems for
+              fleet upgrade configuration. Drive cross-functional coordination with clinical partners and engineering.
+            </p>
+            <div class="chips">
+              <span class="chip">Workflow Automation</span><span class="chip">Health Economics</span><span class="chip">Recommender Systems</span>
+            </div>
+          </div>
 
-  - title: Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics
-    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203337/Optimization-of-imaging-parameters-of-an-investigational-photon-counting-CT/10.1117/12.2612973.pdf"
-    authors: Cindy McCabe, Mojtaba Zarei, W Paul Segars, Ehsan Samei, Ehsan Abadi
-    conference: Medical Imaging 2022, Computer-Aided Diagnosis
-    
-  - title: Probabilistic conformance for cyber-physical systems
-    link: "https://dl.acm.org/doi/pdf/10.1145/3450267.3450534"
-    authors: Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpoor, Miroslav Pajic
-    conference: Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems
-    
-  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
-    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
-    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
-    conference: Medical Imaging 2021, Physics of Medical Imaging
-    
-  - title: A probabilistic conditional adversarial neural network to reduce imaging variation in radiography (Best Poster Award)
-    link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/115953Y/A-probabilistic-conditional-adversarial-neural-network-to-reduce-imaging-variation/10.1117/12.2582336.short?SSO=1"
-    authors: Mojtaba Zarei, Ehsan Abadi, Rafael Fricks, W Paul Segars, Ehsan Samei
-    conference: Medical imaging 2021, Physics of medical imaging
-    
-  - title: Statistical verification of learning-based cyber-physical systems
-    link: "https://dl.acm.org/doi/pdf/10.1145/3365365.3382209"
-    authors: Mojtaba Zarei, Yu Wang, Miroslav Pajic
-    conference: Proceedings of the 23rd International Conference on Hybrid Systems, Computation and Control
-    
-  - title: Experimental study on shared-control of a mobile robot via a haptic device with an optimal velocity obstacle based receding horizon control approach (Featured on journal cover page)
-    link: "https://link.springer.com/article/10.1007/s10846-019-01023-z"
-    authors: Mojtaba Zarei, Navid Kashi, Ahmad Kalhor, Mehdi Tale Masouleh
-    conference: Journal of Intelligent & Robotic Systems
-    
-  - title: Statistical verification of hyperproperties for cyber-physical systems (Best paper finalist candidate)
-    link: "https://dl.acm.org/doi/pdf/10.1145/3358232"
-    authors: Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpour, Miroslav Pajic
-    conference: ACM Transactions on Embedded Computing Systems (TECS)
-    
-  - title: An experimental oscillation damping impedance control for the novint falcon haptic device based on the phase trajectory length function concept
-    link: "https://www.researchgate.net/profile/Mojtaba-Zarei-7/publication/327533427_An_experimental_oscillation_damping_impedance_control_for_the_Novint_Falcon_haptic_device_based_on_the_phase_trajectory_length_function_concept/links/5bb516c692851ca9ed3793b6/An-experimental-oscillation-damping-impedance-control-for-the-Novint-Falcon-haptic-device-based-on-the-phase-trajectory-length-function-concept.pdf"
-    authors: Mojtaba Zarei, Ahmad Kalhor, Mehdi Tale Masouleh
-    conference: Proceedings of the Institution of Mechanical Engineers, Part C, Journal of Mechanical Engineering Science
-    
-  - title: Oscillation damping of nonlinear control systems based on the phase trajectory length concept, An experimental case study on a cable-driven parallel robot
-    link: "https://www.sciencedirect.com/science/article/pii/S0094114X18300260"
-    authors: Mojtaba Zarei, Ali Aflakian, Ahmad Kalhor, Mehdi Tale Masouleh
-    conference: Mechanism and Machine Theory
-    
-  - title: Employing phase trajectory length concept as performance index in linear power oscillation damping controllers
-    link: "https://www.sciencedirect.com/science/article/pii/S0142061517314357"
-    authors: Mojtaba Zarei, Ahmad Kalhor, Mohammad Rastegar
-    conference: International Journal of Electrical Power & Energy Systems
-    
-  - title: Experimental dynamic identification and model feed-forward control of Novint Falcon haptic device
-    link: "https://www.researchgate.net/profile/Nima-Karbasizadeh/publication/323694937_Experimental_dynamic_identification_and_model_feed-forward_control_of_Novint_Falcon_haptic_device/links/5b618ca2aca272a2d679291c/Experimental-dynamic-identification-and-model-feed-forward-control-of-Novint-Falcon-haptic-device.pdf"
-    authors: Nima Karbasizadeh, Mojtaba Zarei, Ali Aflakian, Mehdi Tale Masouleh, Ahmad Kalhor
-    conference: Mechatronics
-    
-  - title: Arc Length based Maximal Lyapunov Functions and domains of attraction estimation for polynomial nonlinear systems
-    link: "https://www.sciencedirect.com/science/article/pii/S000510981730643X"
-    authors: Mojtaba Zarei, Ahmad Kalhor, Dani Brake
-    conference: Automatica
+          <div class="item">
+            <h3>Research Assistant — RAI Labs (CVIT)</h3>
+            <div class="sub">Duke University · 2020–2023</div>
+            <p>
+              Focused on protocol optimization and AI harmonization for CT/CXR to reduce cross-site variability and improve downstream AI performance.
+              Built physics-informed DNNs and automated pipelines to extract biomarkers and enhance quantitative reliability.
+            </p>
+            <div class="chips">
+              <span class="chip">Protocol Optimization</span><span class="chip">AI Harmonization</span><span class="chip">Physics-informed DNNs</span>
+            </div>
+          </div>
 
-# projects:
-#   - title: Cool Project 
-#     link: #
-#     details: |
-#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-#       tempor incididunt ut labore et dolore magna aliqua.
+          <div class="item">
+            <h3>Researcher — Cyber Physical Security Lab (CPSL)</h3>
+            <div class="sub">Duke University · 2018–2020</div>
+            <p>
+              Developed statistical model checking for safety and fairness of learning-enabled cyber-physical systems including medical devices and robots.
+            </p>
+            <div class="chips"><span class="chip">Safety</span><span class="chip">Fairness</span><span class="chip">Model Checking</span></div>
+          </div>
 
-#   - title: Cool Project 
-#     link: #
-#     details: |
-#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-#       tempor incididunt ut labore et dolore magna aliqua.
+          <div class="item">
+            <h3>Researcher — Human & Robot Interaction Lab (TaarLab)</h3>
+            <div class="sub">University of Tehran · 2014–2018</div>
+            <p>
+              Built obstacle-avoidance and anti-oscillation control algorithms; developed data-fusion pipelines for robust autonomous control.
+            </p>
+            <div class="chips"><span class="chip">Robotics</span><span class="chip">Control</span><span class="chip">Data Fusion</span></div>
+          </div>
+        </div>
+      </section>
 
-# Volunteering
-volunteering:
-  - time: 2019-2022
-    role: President/Vice-President/Treasurer
-    company: Graduate Student Association of Iranians at Duke
-    details: |
-      As a board member, my duties involved promoting Iranian culture, art, and literature to various groups at Duke University.
-      I also strived to create a safe and supportive space for Iranian students to express their concerns, accomplishments, and feedback about their experiences at Duke.
-      Over the past three years, our community has successfully organized more than 60 events, which would have been impossible without the enthusiastic participation and dedication of our Duke members and officers.
-      
-  - time: 2016-2017
-    role: Co-funder/Board member
-    company: Literature and cultural center of the NST department at UT
+      <section class="section">
+        <h2>Selected Publications</h2>
+        <div class="list">
+          <div class="item">
+            <h3><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12031/120313B/A-truth-based-primal-dual-learning-approach-to-reconstruct-CT/10.1117/12.2613168.pdf" target="_blank" rel="noopener">Truth-based primal-dual learning for CT reconstruction</a></h3>
+            <div class="sub">Medical Imaging 2022 — Zarei, Sotoudeh-Paima, Abadi, Samei</div>
+          </div>
+          <div class="item">
+            <h3><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203337/Optimization-of-imaging-parameters-of-an-investigational-photon-counting-CT/10.1117/12.2612973.pdf" target="_blank" rel="noopener">Optimization of photon-counting CT parameters</a></h3>
+            <div class="sub">Medical Imaging 2022 — McCabe, Zarei, Segars, Samei, Abadi</div>
+          </div>
+          <div class="item">
+            <h3><a href="https://dl.acm.org/doi/pdf/10.1145/3450267.3450534" target="_blank" rel="noopener">Probabilistic conformance for cyber-physical systems</a></h3>
+            <div class="sub">ACM/IEEE ICCPS 2021 — Wang, Zarei, Bonakdarpoor, Pajic</div>
+          </div>
+          <div class="item">
+            <h3><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf" target="_blank" rel="noopener">Multi-factorial optimization for cardiac CT radiomics</a></h3>
+            <div class="sub">Medical Imaging 2021 — Zarei et al.</div>
+          </div>
+          <div class="item">
+            <h3><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/115953Y/A-probabilistic-conditional-adversarial-neural-network-to-reduce-imaging-variation/10.1117/12.2582336.short?SSO=1" target="_blank" rel="noopener">p-cGAN for radiography variation reduction (Best Poster)</a></h3>
+            <div class="sub">Medical Imaging 2021 — Zarei, Abadi, Fricks, Segars, Samei</div>
+          </div>
+          <div class="item">
+            <h3><a href="https://dl.acm.org/doi/pdf/10.1145/3365365.3382209" target="_blank" rel="noopener">Statistical verification of learning-based CPS</a></h3>
+            <div class="sub">HSCC 2020 — Zarei, Wang, Pajic</div>
+          </div>
+          <!-- Additional publications from list could be added similarly -->
+        </div>
+      </section>
 
+      <section class="section">
+        <h2>Volunteering</h2>
+        <div class="list">
+          <div class="item">
+            <h3>Graduate Student Association of Iranians at Duke</h3>
+            <div class="sub">President/Vice-President/Treasurer · 2019–2022</div>
+            <p>Organized 60+ cultural and community events; built supportive space for Iranian students at Duke.</p>
+          </div>
+          <div class="item">
+            <h3>Literature & Cultural Center, NST Dept., UT</h3>
+            <div class="sub">Co-founder & Board Member · 2016–2017</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Tech Stack</h2>
+        <div class="grid-2">
+          <div>
+            <div class="item"><h3>AI/ML</h3></div>
+            <div class="chips"><span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">scikit-learn</span><span class="chip">Python</span></div>
+          </div>
+          <div>
+            <div class="item"><h3>Optimization</h3></div>
+            <div class="chips"><span class="chip">Gurobi</span><span class="chip">YALMIP</span></div>
+          </div>
+          <div>
+            <div class="item"><h3>Robotics & Control</h3></div>
+            <div class="chips"><span class="chip">MATLAB</span><span class="chip">ROS</span><span class="chip">Gazebo</span><span class="chip">Webots</span></div>
+          </div>
+          <div>
+            <div class="item"><h3>DevOps & Tools</h3></div>
+            <div class="chips"><span class="chip">Docker</span><span class="chip">Mathematica</span><span class="chip">SolidWorks/CATIA</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">© <span id="yr"></span> Mojtaba Zarei — Built with care. Dark mode supported.</div>
+    </main>
+  </div>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
