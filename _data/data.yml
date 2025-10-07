@@ -64,7 +64,6 @@ experience:
       Lead validation and deployment of AI-enabled CT workflow automation (e.g., dual-energy
       map generation, orientation automation). Coordinate multi-site collaborations evaluating
       health-economic impact (reduced acquisition time, lower radiologist/CT tech load).
-      Built a recommender system to propose optimal scanner feature combinations for fleet upgrades.
     technologies_used: "Machine Learning, Deep Learning, Python, PyTorch, MATLAB"
 
   - role: "Research Assistant — RAI Labs (CVIT)"
