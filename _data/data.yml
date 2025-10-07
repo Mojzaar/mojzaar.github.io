@@ -1,187 +1,167 @@
-name: Mojtaba Zarei
+# _data/data.yml
+
+name: "Mojtaba Zarei"
 support_dark_mode: true
 fork: true
 
-# Sidebar
-contact:
-  email: mojtaba.zarei@duke.edu
-  github: mojzaar
-  linkedin: mojzar
-  phone: 
-  gitlab: 
-  twitter: mojzaar
+sidebar:
+  contact:
+    email: "mojtaba.zarei@duke.edu"
+    github: "mojzaar"
+    linkedin: "mojzar"
+    phone: ""
+    gitlab: ""
+    twitter: "mojzaar"
 
 languages:
-  - idiom: English
-  - idiom: Persian
-  - idiom: Arabic
+  - idiom: "English"
+  - idiom: "Persian"
+  - idiom: "Arabic"
 
 education:
-  - degree: Ph.D. in ECE
-    time: 2018-2023
-    university: Duke University
-
-  - degree: MSc in Mechatronics 
-    time: 2014-2017
-    university: University of Tehran
-    
-  - degree: BSc in ME
-    time: 2008-2012
-    university: Isfahan University of Technology
+  - degree: "Ph.D. in ECE"
+    time: "2018–2023"
+    university: "Duke University"
+  - degree: "M.Sc. in Mechatronics"
+    time: "2014–2017"
+    university: "University of Tehran"
+  - degree: "B.Sc. in Mechanical Engineering"
+    time: "2008–2012"
+    university: "Isfahan University of Technology"
 
 skills:
-  - category: Optimization
-    skill: 
-      - Gorubi
-      - Yalmip
-  - category: Machine Learning
-    skill: 
-      - Scikit Learn
-      - Pytorch
-      - Tensorflow
-  - category: Robotics and Control
-    skill: 
-      - Matlab
-      - Mathematica
-      - Solidworks/CATIA
-      - ROS/Gazebo
-  - category: DevOps
+  - category: "Optimization"
     skill:
-      - Docker
- 
-# Profile
-profile: |
-  Science is a subject that deeply fascinates me. I take pleasure in exploring scientific dilemmas from various viewpoints and approaches.
-  My passion fuels my eagerness to acquire unconventional and multifarious skills, which enables me to broaden my understanding
-  My research methodologies typically involve robust mathematical and statistical techniques, complemented by advanced learning algorithms to produce effective solutions.
+      - "Gurobi"
+      - "YALMIP"
+  - category: "Machine Learning"
+    skill:
+      - "scikit-learn"
+      - "PyTorch"
+      - "TensorFlow"
+  - category: "Robotics and Control"
+    skill:
+      - "MATLAB"
+      - "Mathematica"
+      - "SolidWorks/CATIA"
+      - "ROS/Gazebo"
+  - category: "DevOps"
+    skill:
+      - "Docker"
 
-# Experience
+profile: >
+  I build AI/ML systems that improve medical imaging quality and workflow efficiency.
+  My work blends rigorous optimization and statistical methods with deep learning
+  to deliver reliable, clinically meaningful solutions. I enjoy translating clinical
+  questions into deployable models and collaborating across imaging science, product,
+  and clinical teams.
+
 experience:
-  - role: Research Assistance
-    time: 2020-Present
-    company: Carl E. Ravin Advanced Imaging Laboratories (RAI Labs)
-    details: |
-      As a member of the Center of Virtual Imaging Trials (CVIT), my goal is to enhance the quality of medical images through virtual acquisition.
-      By utilizing virtual patients and scanners, we can gather enough training datasets and target references without jeopardizing patient privacy or well-being. 
-      At CVIT, I concentrate on refining the protocol selection guidelines to improve radiologist image evaluation.
-      I have also created physics-informed Deep Neural Networks (DNNs) to minimize image variability caused by scanning processes from various centers/systems. 
-      Additionally, I've developed automated pipelines that extract relevant biomarkers to enable precise and reliable quantification of medical images.
-    technologies_used: | 
-      Machine Learning, Polynomial Optimization, Deep Learning, Data Science, Python, Pytorch, Yalmip, Gorubi, Matlab
-  
-  - role: Researcher
-    time: 2018-2020
-    company: Cyber Physical Security Lab (CPSL)
-    details: |
-      I focus on the importance of safety-critical systems, such as medical devices or autonomous vehicles, as they directly impact human well-being.
-      With the ever-evolving technologies embedded in these systems, each component plays a crucial role in ensuring the final outcome is safe and reliable.
-      Through my research, I specialize in creating stochastic model-checking algorithms specifically designed for learning-enabled systems like robots, vehicles, and power systems.
-      These algorithms assess whether a complex system can meet the desired specifications and rely on a unique stochastic model checking approach to gauge the system's reliability within a given confidence interval.
-    technologies_used: | 
-      Python, Matlab, Webots, Gazebo, ROS
-      
-  - role: Researcher
-    time: 2014-2018
-    company: Human and Robot Interation Lab (TaarLab)
-    details: |
-      Controlling autonomous vehicles requires a combination of human and intelligence units. Thus, such systems face a number of challenges, including
-      controlling the mobile device smoothly, avoiding obstacles in dynamic environments, and combining sensory data so that the most useful and informative
-      information is used to make a proper decision. For my master's thesis, I developed several obstacle avoidance algorithms and developed a design criteria
-      to synthesize the anti-oscillation controllers. Additionally, designing real-world robots and working with real commercial robots helps me to develop data
-      fusion algorithms that preprocess sensory data and use them for more accurate system feedback.
-    technologies_used: | 
-      Matlab, Gazebo, ROS, C++, Gorubi
+  - role: "CT Clinical Scientist"
+    time: "2023–Present"
+    company: "GE HealthCare"
+    details: >
+      Lead validation and deployment of AI-enabled CT workflow automation (e.g., dual-energy
+      map generation, orientation automation). Coordinate multi-site collaborations evaluating
+      health-economic impact (reduced acquisition time, lower radiologist/CT tech load).
+      Built a recommender system to propose optimal scanner feature combinations for fleet upgrades.
+    technologies_used: "Machine Learning, Deep Learning, Python, PyTorch, MATLAB"
+
+  - role: "Research Assistant — RAI Labs (CVIT)"
+    time: "2020–2023"
+    company: "Duke University"
+    details: >
+      Protocol optimization and AI harmonization for CT/CXR to reduce cross-site variability
+      and improve downstream AI performance. Built physics-informed DNNs and automated pipelines
+      to extract biomarkers and enhance quantitative reliability.
+    technologies_used: "Physics-informed DNNs, Optimization, PyTorch, MATLAB, Python"
+
+  - role: "Researcher — Cyber Physical Security Lab (CPSL)"
+    time: "2018–2020"
+    company: "Duke University"
+    details: >
+      Developed statistical model checking for safety and fairness of learning-enabled cyber-physical
+      systems including medical devices and robots.
+    technologies_used: "Python, MATLAB, ROS, Gazebo, Webots"
+
+  - role: "Researcher — Human & Robot Interaction Lab (TaarLab)"
+    time: "2014–2018"
+    company: "University of Tehran"
+    details: >
+      Built obstacle-avoidance and anti-oscillation control algorithms; developed data-fusion
+      pipelines for robust autonomous control.
+    technologies_used: "MATLAB, ROS, Gazebo, C++, Gurobi"
 
 publications:
-  - title: A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform
+  - title: "A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform"
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12031/120313B/A-truth-based-primal-dual-learning-approach-to-reconstruct-CT/10.1117/12.2613168.pdf"
-    authors: Mojtaba Zarei, Saman Sotoudeh-Paima, Ehsan Abadi, Ehsan Samei
-    conference: Medical Imaging 2022, Physics of Medical Imaging
+    authors: "Mojtaba Zarei, Saman Sotoudeh-Paima, Ehsan Abadi, Ehsan Samei"
+    conference: "Medical Imaging 2022, Physics of Medical Imaging"
 
-  - title: Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics
+  - title: "Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics"
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203337/Optimization-of-imaging-parameters-of-an-investigational-photon-counting-CT/10.1117/12.2612973.pdf"
-    authors: Cindy McCabe, Mojtaba Zarei, W Paul Segars, Ehsan Samei, Ehsan Abadi
-    conference: Medical Imaging 2022, Computer-Aided Diagnosis
-    
-  - title: Probabilistic conformance for cyber-physical systems
+    authors: "Cindy McCabe, Mojtaba Zarei, W Paul Segars, Ehsan Samei, Ehsan Abadi"
+    conference: "Medical Imaging 2022, Computer-Aided Diagnosis"
+
+  - title: "Probabilistic conformance for cyber-physical systems"
     link: "https://dl.acm.org/doi/pdf/10.1145/3450267.3450534"
-    authors: Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpoor, Miroslav Pajic
-    conference: Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems
-    
-  - title: Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT
+    authors: "Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpoor, Miroslav Pajic"
+    conference: "ACM/IEEE ICCPS 2021"
+
+  - title: "Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT"
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/1159504/Multi-factorial-optimization-of-imaging-parameters-for-quantifying-coronary-stenosis/10.1117/12.2582311.pdf"
-    authors: Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei
-    conference: Medical Imaging 2021, Physics of Medical Imaging
-    
-  - title: A probabilistic conditional adversarial neural network to reduce imaging variation in radiography (Best Poster Award)
+    authors: "Mojtaba Zarei, Ehsan Abadi, W Paul Segars, Taylor Richards, Ehsan Samei"
+    conference: "Medical Imaging 2021, Physics of Medical Imaging"
+
+  - title: "A probabilistic conditional adversarial neural network to reduce imaging variation in radiography (Best Poster Award)"
     link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11595/115953Y/A-probabilistic-conditional-adversarial-neural-network-to-reduce-imaging-variation/10.1117/12.2582336.short?SSO=1"
-    authors: Mojtaba Zarei, Ehsan Abadi, Rafael Fricks, W Paul Segars, Ehsan Samei
-    conference: Medical imaging 2021, Physics of medical imaging
-    
-  - title: Statistical verification of learning-based cyber-physical systems
+    authors: "Mojtaba Zarei, Ehsan Abadi, Rafael Fricks, W Paul Segars, Ehsan Samei"
+    conference: "Medical Imaging 2021, Physics of Medical Imaging"
+
+  - title: "Statistical verification of learning-based cyber-physical systems"
     link: "https://dl.acm.org/doi/pdf/10.1145/3365365.3382209"
-    authors: Mojtaba Zarei, Yu Wang, Miroslav Pajic
-    conference: Proceedings of the 23rd International Conference on Hybrid Systems, Computation and Control
-    
-  - title: Experimental study on shared-control of a mobile robot via a haptic device with an optimal velocity obstacle based receding horizon control approach (Featured on journal cover page)
+    authors: "Mojtaba Zarei, Yu Wang, Miroslav Pajic"
+    conference: "HSCC 2020"
+
+  - title: "Experimental study on shared-control of a mobile robot via a haptic device with an optimal velocity obstacle based receding horizon control approach (Featured on cover)"
     link: "https://link.springer.com/article/10.1007/s10846-019-01023-z"
-    authors: Mojtaba Zarei, Navid Kashi, Ahmad Kalhor, Mehdi Tale Masouleh
-    conference: Journal of Intelligent & Robotic Systems
-    
-  - title: Statistical verification of hyperproperties for cyber-physical systems (Best paper finalist candidate)
+    authors: "Mojtaba Zarei, Navid Kashi, Ahmad Kalhor, Mehdi Tale Masouleh"
+    conference: "Journal of Intelligent & Robotic Systems"
+
+  - title: "Statistical verification of hyperproperties for cyber-physical systems (Best paper finalist)"
     link: "https://dl.acm.org/doi/pdf/10.1145/3358232"
-    authors: Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpour, Miroslav Pajic
-    conference: ACM Transactions on Embedded Computing Systems (TECS)
-    
-  - title: An experimental oscillation damping impedance control for the novint falcon haptic device based on the phase trajectory length function concept
+    authors: "Yu Wang, Mojtaba Zarei, Borzoo Bonakdarpour, Miroslav Pajic"
+    conference: "ACM Transactions on Embedded Computing Systems (TECS)"
+
+  - title: "An experimental oscillation damping impedance control for the Novint Falcon haptic device based on the phase trajectory length function concept"
     link: "https://www.researchgate.net/profile/Mojtaba-Zarei-7/publication/327533427_An_experimental_oscillation_damping_impedance_control_for_the_Novint_Falcon_haptic_device_based_on_the_phase_trajectory_length_function_concept/links/5bb516c692851ca9ed3793b6/An-experimental-oscillation-damping-impedance-control-for-the-Novint-Falcon-haptic-device-based-on-the-phase-trajectory-length-function-concept.pdf"
-    authors: Mojtaba Zarei, Ahmad Kalhor, Mehdi Tale Masouleh
-    conference: Proceedings of the Institution of Mechanical Engineers, Part C, Journal of Mechanical Engineering Science
-    
-  - title: Oscillation damping of nonlinear control systems based on the phase trajectory length concept, An experimental case study on a cable-driven parallel robot
+    authors: "Mojtaba Zarei, Ahmad Kalhor, Mehdi Tale Masouleh"
+    conference: "Proc. IMechE Part C: Journal of Mechanical Engineering Science"
+
+  - title: "Oscillation damping of nonlinear control systems based on the phase trajectory length concept: An experimental case study on a cable-driven parallel robot"
     link: "https://www.sciencedirect.com/science/article/pii/S0094114X18300260"
-    authors: Mojtaba Zarei, Ali Aflakian, Ahmad Kalhor, Mehdi Tale Masouleh
-    conference: Mechanism and Machine Theory
-    
-  - title: Employing phase trajectory length concept as performance index in linear power oscillation damping controllers
+    authors: "Mojtaba Zarei, Ali Aflakian, Ahmad Kalhor, Mehdi Tale Masouleh"
+    conference: "Mechanism and Machine Theory"
+
+  - title: "Employing phase trajectory length concept as performance index in linear power oscillation damping controllers"
     link: "https://www.sciencedirect.com/science/article/pii/S0142061517314357"
-    authors: Mojtaba Zarei, Ahmad Kalhor, Mohammad Rastegar
-    conference: International Journal of Electrical Power & Energy Systems
-    
-  - title: Experimental dynamic identification and model feed-forward control of Novint Falcon haptic device
-    link: "https://www.researchgate.net/profile/Nima-Karbasizadeh/publication/323694937_Experimental_dynamic_identification_and_model_feed-forward_control_of_Novint_Falcon_haptic_device/links/5b618ca2aca272a2d679291c/Experimental-dynamic-identification-and-model-feed-forward-control-of-Novint-Falcon-haptic-device.pdf"
-    authors: Nima Karbasizadeh, Mojtaba Zarei, Ali Aflakian, Mehdi Tale Masouleh, Ahmad Kalhor
-    conference: Mechatronics
-    
-  - title: Arc Length based Maximal Lyapunov Functions and domains of attraction estimation for polynomial nonlinear systems
-    link: "https://www.sciencedirect.com/science/article/pii/S000510981730643X"
-    authors: Mojtaba Zarei, Ahmad Kalhor, Dani Brake
-    conference: Automatica
+    authors: "Mojtaba Zarei, Ahmad Kalhor, Mohammad Rastegar"
+    conference: "International Journal of Electrical Power & Energy Systems"
 
-# projects:
-#   - title: Cool Project 
-#     link: #
-#     details: |
-#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-#       tempor incididunt ut labore et dolore magna aliqua.
+  - title: "Experimental dynamic identification and model feed-forward control of Novint Falcon haptic device"
+    link: "https://www.researchgate.net/profile/Nima-Karbasizadeh/publication/323694937_Experimental_dynamic_identification_and_model_feed-forward_control_of_Novint_Falcon_haptic_device/links/5b618ca2aca272a2d679291c/Experimental-dynamic-identification-and-model-feed-forward-control-of-the-Novint-Falcon-haptic-device.pdf"
+    authors: "Nima Karbasizadeh, Mojtaba Zarei, Ali Aflakian, Mehdi Tale Masouleh, Ahmad Kalhor"
+    conference: "Mechatronics"
 
-#   - title: Cool Project 
-#     link: #
-#     details: |
-#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-#       tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
 volunteering:
-  - time: 2019-2022
-    role: President/Vice-President/Treasurer
-    company: Graduate Student Association of Iranians at Duke
-    details: |
-      As a board member, my duties involved promoting Iranian culture, art, and literature to various groups at Duke University.
-      I also strived to create a safe and supportive space for Iranian students to express their concerns, accomplishments, and feedback about their experiences at Duke.
-      Over the past three years, our community has successfully organized more than 60 events, which would have been impossible without the enthusiastic participation and dedication of our Duke members and officers.
-      
-  - time: 2016-2017
-    role: Co-funder/Board member
-    company: Literature and cultural center of the NST department at UT
+  - time: "2019–2022"
+    role: "President/Vice-President/Treasurer"
+    company: "Graduate Student Association of Iranians at Duke"
+    details: >
+      Organized 60+ cultural and community events; created a supportive space for Iranian students
+      to share concerns, accomplishments, and feedback.
 
+  - time: "2016–2017"
+    role: "Co-founder/Board member"
+    company: "Literature and Cultural Center, NST Department, University of Tehran"
+    details: ""
