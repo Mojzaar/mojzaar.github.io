@@ -66,7 +66,7 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT"</em></li>
                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Coronary stenosis quantification in cardiac computed tomography angiography: multi-factorial optimization of image quality and radiation dose"</em></li>
                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Protocol selection formalism for minimizing detectable differences in morphological radiomics features of lung lesions in repeated CT acquisitions,"</em> Journal of Medical Imaging, 2024.</li>
-                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Virtual NLST: towards replicating national lung screening trial"</em></li>
+                    <li style="margin-bottom: 8px;">F.I Tushar, <strong>Mojtaba Zarei</strong>, ..., et al., <em>"Virtual NLST: towards replicating national lung screening trial"</em></li>
                     <li style="margin-bottom: 8px;">F.I Tushar, <strong>Mojtaba Zarei</strong>, ..., et al., <em>"Virtual lung screening trial (VLST): An in silico study inspired by the national lung screening trial for lung cancer detection"</em></li>
                 </ul>
             </div>
