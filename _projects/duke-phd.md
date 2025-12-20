@@ -63,8 +63,12 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
             <div style="margin-top: 20px;">
                 <h4 style="color: #333;">Relevant Publications:</h4>
                 <ul style="list-style-type: none; padding-left: 0;">
-                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT,"</em> SPIE Medical Imaging, 2021.</li>
-                    <li style="margin-bottom: 8px;">Cindy McCabe, <strong>Mojtaba Zarei</strong>, et al., <em>"Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics,"</em> SPIE Medical Imaging, 2022.</li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Multi-factorial optimization of imaging parameters for quantifying coronary stenosis in cardiac CT"</em></li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Coronary stenosis quantification in cardiac computed tomography angiography: multi-factorial optimization of image quality and radiation dose"</em></li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Protocol selection formalism for minimizing detectable differences in morphological radiomics features of lung lesions in repeated CT acquisitions,"</em> Journal of Medical Imaging, 2024.</li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Virtual NLST: towards replicating national lung screening trial"</em></li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"VLST: Virtual Lung Screening Trial for Lung Cancer Detection Using Virtual Imaging Trial,"</em> ResearchGate, 2024.</li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Virtual lung screening trial (VLST): An in silico study inspired by the national lung screening trial for lung cancer detection"</em></li>
                 </ul>
             </div>
         </div>
@@ -91,8 +95,13 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
             <div style="margin-top: 20px;">
                 <h4 style="color: #333;">Relevant Publications:</h4>
                 <ul style="list-style-type: none; padding-left: 0;">
-                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform,"</em> SPIE Medical Imaging, 2022.</li>
-                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A probabilistic conditional adversarial neural network to reduce imaging variation in radiography,"</em> SPIE Medical Imaging (Best Poster Award), 2021.</li>
+                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform,"</em> SPIE Medical Imaging, 2022.</li>
+                     <li style="margin-bottom: 8px;">J.H. Valand, <strong>Mojtaba Zarei</strong>, E. Abadi, <em>"Truth-Based Physics Informed Estimation of Material Composition in Spectral CT,"</em> AAPM, 2024.</li>
+                     <li style="margin-bottom: 8px;">S.J. Xia, <strong>Mojtaba Zarei</strong>, et al., <em>"Evaluation of unified harmonization of CT images across multiple tasks: A step towards AI generalizability,"</em> Medical Physics, 2025.</li>
+                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"The role of harmonization: a systematic analysis of various task-based scenarios"</em></li>
+                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A probabilistic conditional adversarial neural network to reduce imaging variation in radiography,"</em> SPIE Medical Imaging (Best Poster Award), 2021.</li>
+                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A physics-informed deep neural network for harmonization of CT images"</em></li>
+                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Harmonizing CT images via physics-based deep neural networks"</em></li>
                 </ul>
             </div>
         </div>
@@ -119,7 +128,15 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
             <div style="margin-top: 20px;">
                 <h4 style="color: #333;">Relevant Publications:</h4>
                 <ul style="list-style-type: none; padding-left: 0;">
-                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics,"</em> SPIE Medical Imaging, 2022.</li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A systematic assessment of photon-counting CT for bone mineral density and microarchitecture quantifications,"</em> SPIE Medical Imaging, 2023.</li>
+                    <li style="margin-bottom: 8px;">Cindy McCabe, <strong>Mojtaba Zarei</strong>, et al., <em>"Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics,"</em> SPIE Medical Imaging, 2022.</li>
+                    <li style="margin-bottom: 8px;">Cindy McCabe, E. Abadi, <strong>Mojtaba Zarei</strong>, et al., <em>"The potential of photon-counting CT for the improved precision of lung nodule radiomics,"</em> Physics in Medicine & Biology, 2025.</li>
+                    <li style="margin-bottom: 8px;">F. Ria, <strong>Mojtaba Zarei</strong>, et al., <em>"Image quality of photon counting and energy integrating chest CT–Prospective head-to-head comparison on same patients,"</em> ResearchGate, 2024.</li>
+                    <li style="margin-bottom: 8px;">F.R. Schwartz, C. McCabe, ..., <strong>Mojtaba Zarei</strong>, et al., <em>"Technology characterization through diverse evaluation methodologies: application to thoracic imaging in photon-counting computed tomography,"</em> Journal of Thoracic Imaging, 2024.</li>
+                    <li style="margin-bottom: 8px;">F. Ria, <strong>Mojtaba Zarei</strong>, et al., <em>"Performance assessment of photon counting versus energy integrated CT: concordance of in vivo and phantom measurements,"</em> SPIE Medical Imaging, 2024.</li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Comparison of image quality of abdominal CT examinations and virtual noncontrast images between photon-counting and energy-integrating detector CT"</em></li>
+                    <li style="margin-bottom: 8px;">F. Ria, ..., <strong>Mojtaba Zarei</strong>, et al., <em>"Evaluation and extension of in vivo detectability index to deep-learning and photon counting CT techniques,"</em> DukeSpace, 2025.</li>
+                    <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Impact of image formation factors on material discrimination in spectral CT"</em></li>
                 </ul>
             </div>
         </div>
