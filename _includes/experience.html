@@ -8,13 +8,24 @@
                 {{exp.role}}
             </div>
             <div class="company">
-                {{exp.company}} 
+                {{exp.company}}
                 <span class="time">{{exp.time}}</span>
-            </div> 
+            </div>
             <div class="details">{{exp.details}}</div>
+            
+            {% if exp.technologies_used %}
             <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            {% endif %}
+
+            {% if exp.project_id %}
+            <div style="margin-top: 8px;">
+                <a href="{{ exp.project_id | append: '.html' | relative_url }}" 
+                   style="display: inline-block; color: #0056b3; font-weight: 600; text-decoration: none; border: 1px solid #0056b3; padding: 4px 10px; border-radius: 4px; font-size: 0.85em; transition: background-color 0.2s;">
+                   <i class="fa fa-external-link-square" aria-hidden="true"></i> View Research Projects & Videos
+                </a>
+            </div>
+            {% endif %}
         </div>
-       
     {% endfor %}
 </section>
 {% endif %}
