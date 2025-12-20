@@ -13,3 +13,8 @@ plugins:
 
 exclude:
   - docker-compose.yml
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
