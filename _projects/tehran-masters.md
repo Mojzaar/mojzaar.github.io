@@ -24,7 +24,7 @@ This project addressed the challenge of operating mobile robots in dynamic envir
 <div class="project-media">
   <h4>Experimental Demo: Shared Control</h4>
   <video width="100%" controls>
-    <source src="{{ '/assets/tehran-teleoperation.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/shared.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental validation of the shared-control framework avoiding dynamic obstacles.</em></p>
@@ -59,7 +59,7 @@ We introduced a novel mathematical concept—the **Arc Length Function**—to es
 <div class="project-media">
   <h4>Experimental Demo: Oscillation Damping (Cable Robot)</h4>
   <video width="100%" controls>
-    <source src="{{ '/assets/cable-robot-damping.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/MocVSIAE.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental oscillation damping controller for cable parallel robots.</em></p>
@@ -68,7 +68,7 @@ We introduced a novel mathematical concept—the **Arc Length Function**—to es
 <div class="project-media">
   <h4>Experimental Demo: Oscillation Damping (Delta Robot)</h4>
   <video width="100%" controls>
-    <source src="{{ '/assets/delta-robot-damping.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/Moc1.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental oscillation damping controller for delta parallel robots.</em></p>
@@ -102,7 +102,7 @@ To achieve realistic force feedback, we required a highly accurate dynamic model
 <div class="project-media">
   <h4>Experimental Demo: VR Dentistry</h4>
   <video width="100%" controls>
-    <source src="{{ '/assets/vr-dentistry.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/Vr.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Virtual reality environment for dentistry training.</em></p>
@@ -124,7 +124,7 @@ We designed and operationalized a novel parallel robot. Parallel robots offer hi
 <div class="project-media">
   <h4>Experimental Demo: 4-DOF Delta Robot</h4>
   <video width="100%" controls>
-    <source src="{{ '/assets/thesserataar-demo.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/delta.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Designed and manufactured robot in action.</em></p>
