@@ -23,9 +23,8 @@ This project addressed the challenge of operating mobile robots in dynamic envir
 
 <div class="project-media">
   <h4>Experimental Demo: Shared Control</h4>
-  
   <video width="100%" controls>
-    <source src="/assets/shared.mp4" type="video/mp4">
+    <source src="{{ '/assets/tehran-teleoperation.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental validation of the shared-control framework avoiding dynamic obstacles.</em></p>
@@ -33,20 +32,20 @@ This project addressed the challenge of operating mobile robots in dynamic envir
 
 <div class="project-media">
   <h4>Experimental Demo: Mobile Robot Navigation</h4>
-  
   <video width="100%" controls>
-    <source src="/assets/motion1.mp4" type="video/mp4">
+    <source src="{{ '/assets/motion1.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental validation of the motion planning for a single mobile robot.</em></p>
 </div>
 
 **Relevant Publications:**
-* **M. [cite_start]Zarei**, N. Kashi, M. Tale Masouleh, A. Kalhor, *"Experimental Study on Shared-control of a Mobile Robot with a Haptic Device by a Synergy of Receding Horizon, Convex Optimization and Impedance Control Concept,"* Journal of Intelligent & Robotic Systems, 2020. (Featured on Cover) [cite: 106, 107]
+* **M. Zarei**, N. Kashi, M. Tale Masouleh, A. Kalhor, *"Experimental Study on Shared-control of a Mobile Robot with a Haptic Device by a Synergy of Receding Horizon, Convex Optimization and Impedance Control Concept,"* Journal of Intelligent & Robotic Systems, 2020. (Featured on Cover)
 * **M. Zarei**, et al., *"Experimental study on optimal motion planning of wheeled mobile robot using convex optimization and receding horizon concept."*
 * **M. Zarei**, et al., *"An optimal motion planning and obstacle avoidance algorithm based on the finite time velocity obstacle approach."*
 * **M. Zarei**, et al., *"Motion planning of mobile robots in the unknown circumstances based on the receding horizon control and velocity obstacle concepts."*
 * **M. Zarei**, et al., *"Vision based control and simulation of a spherical rolling robot based on ROS and Gazebo."*
+
 ---
 
 ## 2. Non-Linear Control Theory
@@ -58,37 +57,36 @@ We introduced a novel mathematical concept—the **Arc Length Function**—to es
 * **Application:** Validated on cable-driven parallel robots and haptic devices to suppress unwanted vibrations.
 
 <div class="project-media">
-  <h4>Experimental Demo: Oscilation Damping</h4>
-  
+  <h4>Experimental Demo: Oscillation Damping (Cable Robot)</h4>
   <video width="100%" controls>
-    <source src="/assets/MocVSIAE.mp4" type="video/mp4">
+    <source src="{{ '/assets/cable-robot-damping.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental oscillation damping controller for cable parallel robots.</em></p>
 </div>
 
 <div class="project-media">
-  <h4>Experimental Demo: Oscilation Damping</h4>
-  
+  <h4>Experimental Demo: Oscillation Damping (Delta Robot)</h4>
   <video width="100%" controls>
-    <source src="/assets/MOC1.mp4" type="video/mp4">
+    <source src="{{ '/assets/delta-robot-damping.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Experimental oscillation damping controller for delta parallel robots.</em></p>
 </div>
 
 <div class="project-media">
-  <img src="/assets/arclength-plot.png" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
+  <img src="{{ '/assets/arclength-plot.png' | relative_url }}" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
   <p><em>Figure: Comparison of phase trajectories showing the reduced oscillation achieved by our proposed controller (blue) vs. standard methods (red).</em></p>
 </div>
 
 **Relevant Publications:**
-* **M. [cite_start]Zarei**, A. Kalhor, D. Brake, *"Arc length based maximal Lyapunov functions and domains of attraction estimation for polynomial nonlinear systems,"* Automatica, 2018. [cite: 110]
-* **M. [cite_start]Zarei**, A. Aflakian, A. Kalhor, M. Tale Masouleh, *"Oscillation damping of nonlinear control systems based on the phase trajectory length concept: An experimental case study on a cable-driven parallel robot,"* Mechanism and Machine Theory, 2018. [cite: 111]
-* **M. [cite_start]Zarei**, A. Kalhor, M. Tale Masouleh, *"An experimental phase trajectory length based oscillation damping impedance control for Novint Falcon haptic device,"* Journal of Mechanical Engineering Science, 2018. [cite: 113]
+* **M. Zarei**, A. Kalhor, D. Brake, *"Arc length based maximal Lyapunov functions and domains of attraction estimation for polynomial nonlinear systems,"* Automatica, 2018.
+* **M. Zarei**, A. Aflakian, A. Kalhor, M. Tale Masouleh, *"Oscillation damping of nonlinear control systems based on the phase trajectory length concept: An experimental case study on a cable-driven parallel robot,"* Mechanism and Machine Theory, 2018.
+* **M. Zarei**, A. Kalhor, M. Tale Masouleh, *"An experimental phase trajectory length based oscillation damping impedance control for Novint Falcon haptic device,"* Journal of Mechanical Engineering Science, 2018.
 * **M. Zarei**, A. Kalhor, M. Rastegar, *"Employing phase trajectory length concept as performance index in linear power oscillation damping controllers,"* International Journal of Electrical Power & Energy Systems, 2017.
 * **M. Zarei**, K. Javadi, A. Kalhor, *"Perturbed tumor immunotherapy domain of attraction estimation via the arc-length function,"* International Iranian Conference on Biomedical Engineering (ICBME), 2018.
-* S Ansari-Rad, **M. Zarei**, MG Tamizi, SM Nejati, MT Masouleh, A Kalhor, *"Stabilization of a two-dof spherical parallel robot via a novel adaptive approach,"* International Conference on Robotics and Mechatronics, 2018.
+* S. Ansari-Rad, **M. Zarei**, et al., *"Stabilization of a two-dof spherical parallel robot via a novel adaptive approach,"* International Conference on Robotics and Mechatronics, 2018.
+
 ---
 
 ## 3. Virtual Reality Dentistry Simulator
@@ -102,17 +100,16 @@ To achieve realistic force feedback, we required a highly accurate dynamic model
 * **Tech Stack:** C++, SolidWorks, Haptic Rendering Algorithms.
 
 <div class="project-media">
-  <h4>Experimental Demo:VR</h4>
-  
+  <h4>Experimental Demo: VR Dentistry</h4>
   <video width="100%" controls>
-    <source src="/assets/Vr.mp4" type="video/mp4">
+    <source src="{{ '/assets/vr-dentistry.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Video: Virtual reality environment for dentistry training.</em></p>
 </div>
 
 **Relevant Publications:**
-* N. Karbasizadeh, **M. [cite_start]Zarei**, A. Aflakian, M. Tale Masouleh, A. Kalhor, *"Experimental dynamic identification and model feed-forward control of Novint Falcon haptic device,"* Mechatronics, 2018. [cite: 115]
+* N. Karbasizadeh, **M. Zarei**, A. Aflakian, M. Tale Masouleh, A. Kalhor, *"Experimental dynamic identification and model feed-forward control of Novint Falcon haptic device,"* Mechatronics, 2018.
 
 ---
 
@@ -123,16 +120,15 @@ We designed and operationalized a novel parallel robot. Parallel robots offer hi
 
 * **Achievement:** Successfully patented the mechanical design. The robot featured a unique kinematic structure optimized for pick-and-place operations.
 * **Work:** Performed kinematic analysis, mechanical manufacturing, and real-time control implementation using ABC and PSO algorithms.
+
 <div class="project-media">
-  <h4>Experimental Demo:4-DOF Delta</h4>
-  
+  <h4>Experimental Demo: 4-DOF Delta Robot</h4>
   <video width="100%" controls>
-    <source src="/assets/delta.mp4" type="video/mp4">
+    <source src="{{ '/assets/thesserataar-demo.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><em>Video: Designed and manufactured robot.</em></p>
+  <p><em>Video: Designed and manufactured robot in action.</em></p>
 </div>
-
 
 **Relevant Publications:**
 * **M. Zarei**, et al., *"Optimal design and fabrication of a 4-dof quattrotaar parallel robot with singularity-free workspace by ABC and PSO algorithms."*
