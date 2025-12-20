@@ -1,27 +1,26 @@
 # _data/data.yml
-
 name: "Mojtaba Zarei"
 support_dark_mode: true
 fork: true
 
 sidebar:
   contact:
-    email: "mojtaba.zarei@duke.edu"
+    email: "mojzaar@gmail.com"
+    phone: "(+1) 470-322-0261"
     github: "mojzaar"
     linkedin: "mojzar"
-    phone: ""
-    gitlab: ""
     twitter: "mojzaar"
+    location: "Raleigh, NC, USA"
 
 languages:
   - idiom: "English"
   - idiom: "Persian"
-  - idiom: "Arabic"
 
 education:
-  - degree: "Ph.D. in ECE"
+  - degree: "Ph.D. in Electrical and Computer Engineering"
     time: "2018–2023"
     university: "Duke University"
+    details: "Focus: AI/ML, Medical Imaging, Optimization."
   - degree: "M.Sc. in Mechatronics"
     time: "2014–2017"
     university: "University of Tehran"
@@ -30,66 +29,74 @@ education:
     university: "Isfahan University of Technology"
 
 skills:
+  - category: "AI & Data Science"
+    skill:
+      - "Python/PyTorch/TensorFlow"
+      - "RL/Gen-AI/GNN"
+      - "Scikit-learn"
   - category: "Optimization"
     skill:
-      - "Gurobi"
-      - "YALMIP"
-  - category: "Machine Learning"
+      - "Gurobi/CPLEX"
+      - "Combinatorial Optimization"
+      - "Data-Driven Optimization"
+  - category: "Engineering & Sim"
     skill:
-      - "scikit-learn"
-      - "PyTorch"
-      - "TensorFlow"
-  - category: "Robotics and Control"
-    skill:
-      - "MATLAB"
-      - "Mathematica"
+      - "MATLAB/Simulink"
+      - "ROS/Gazebo/Webots"
+      - "Digital Twin (DukeSim)"
       - "SolidWorks/CATIA"
-      - "ROS/Gazebo"
-  - category: "DevOps"
-    skill:
-      - "Docker"
 
 profile: >
-  I build AI/ML systems that improve medical imaging quality and workflow efficiency.
-  My work blends rigorous optimization and statistical methods with deep learning
-  to deliver reliable, clinically meaningful solutions. I enjoy translating clinical
-  questions into deployable models and collaborating across imaging science, product,
-  and clinical teams.
+  Lead Regional CT Clinical Scientist at GE Healthcare with a Ph.D. in Electrical and Computer Engineering.
+  I specialize in translating clinical challenges into advanced AI/ML and hybrid AI-Operations Research solutions.
+  My expertise spans digital twin simulations, reinforcement learning, and patient flow optimization.
+  I am driven by a passion for innovation and solving complex healthcare problems through interdisciplinary research.
 
 experience:
-  - role: "CT Clinical Scientist"
-    time: "2023–Present"
+  - role: "Lead CT Clinical Scientist"
+    time: "Dec 2023–Present"
     company: "GE HealthCare"
+    location: "Raleigh, NC"
+    project_id: "ge-healthcare" 
     details: >
-      Lead validation and deployment of AI-enabled CT workflow automation (e.g., dual-energy
-      map generation, orientation automation). Coordinate multi-site collaborations evaluating
-      health-economic impact (reduced acquisition time, lower radiologist/CT tech load).
-    technologies_used: "Machine Learning, Deep Learning, Python, PyTorch, MATLAB"
+      Manage collaborations with healthcare institutions to evaluate scanners and AWS software. 
+      Lead evaluation projects, secure funding, and ensure outcomes align with clinical standards.
+      Developed Graph Neural Network recommender systems to identify high-value collaboration sites.
+      Managed large-scale datasets to validate AI-powered operational solutions.
+    technologies_used: "Python, Docker, SQL, GNN, PyTorch"
 
-  - role: "Research Assistant — RAI Labs (CVIT)"
-    time: "2020–2023"
+  - role: "Lead Researcher"
+    time: "Aug 2018–Dec 2023"
     company: "Duke University"
+    location: "Durham, NC"
+    project_id: "duke-phd"
     details: >
-      Protocol optimization and AI harmonization for CT/CXR to reduce cross-site variability
-      and improve downstream AI performance. Built physics-informed DNNs and automated pipelines
-      to extract biomarkers and enhance quantitative reliability.
-    technologies_used: "Physics-informed DNNs, Optimization, PyTorch, MATLAB, Python"
+      Principal Investigator for virtual imaging trials improving diagnostic accuracy and operational efficiency.
+      Developed patient-dependent ML optimization frameworks using digital twins, achieving a 4-fold increase in image quality.
+      Designed physics-informed Deep Neural Networks for image harmonization, reducing variability by 20%.
+      Created stochastic model checking algorithms for formal verification of learning-enabled systems.
+    technologies_used: "Physics-informed DNNs, Optimization, PyTorch, MATLAB, Digital Twins"
 
-  - role: "Researcher — Cyber Physical Security Lab (CPSL)"
-    time: "2018–2020"
-    company: "Duke University"
-    details: >
-      Developed statistical model checking for safety and fairness of learning-enabled cyber-physical
-      systems including medical devices and robots.
-    technologies_used: "Python, MATLAB, ROS, Gazebo, Webots"
-
-  - role: "Researcher — Human & Robot Interaction Lab (TaarLab)"
-    time: "2014–2018"
+  - role: "Lead Researcher"
+    time: "Sep 2014–May 2017"
     company: "University of Tehran"
+    location: "Tehran, Iran"
+    project_id: "tehran-masters"
     details: >
-      Built obstacle-avoidance and anti-oscillation control algorithms; developed data-fusion
-      pipelines for robust autonomous control.
-    technologies_used: "MATLAB, ROS, Gazebo, C++, Gurobi"
+      Led R&D for virtual dentistry, telerobotics, and motion planning.
+      Developed a haptic assistant controller for remote operation of autonomous mobile robots.
+      Established a novel control standard to assess oscillatory characteristics of complex systems.
+      Created geometric-based motion planning algorithms for real-time collision avoidance.
+    technologies_used: "ROS, Gazebo, C++, Haptics, Control Theory"
+
+  - role: "Board of Directors Member"
+    time: "Jan 2012–Sep 2017"
+    company: "Tiva Mechatronic Aria"
+    location: "Isfahan, Iran"
+    details: >
+      Startup founder and board member. Provided strategic direction and built engineering teams 
+      to develop automated devices for heavy-duty applications, including an automatic welding machine 
+      for stone cutting saws.
 
 publications:
   - title: "A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform"
