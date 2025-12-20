@@ -63,7 +63,7 @@ experience:
       Lead evaluation projects, secure funding, and ensure outcomes align with clinical standards.
       Developed Graph Neural Network recommender systems to identify high-value collaboration sites.
       Managed large-scale datasets to validate AI-powered operational solutions.
-    technologies_used: "Python, Docker, SQL, GNN, PyTorch"
+    technologies_used: "Python, Docker, GNN, PyTorch"
 
   - role: "Lead Researcher"
     time: "Aug 2018–Dec 2023"
@@ -75,7 +75,7 @@ experience:
       Developed patient-dependent ML optimization frameworks using digital twins, achieving a 4-fold increase in image quality.
       Designed physics-informed Deep Neural Networks for image harmonization, reducing variability by 20%.
       Created stochastic model checking algorithms for formal verification of learning-enabled systems.
-    technologies_used: "Physics-informed DNNs, Optimization, PyTorch, MATLAB, Digital Twins"
+    technologies_used: "Physics-informed DNNs, RL, Optimization, PyTorch, MATLAB, Digital Twins"
 
   - role: "Lead Researcher"
     time: "Sep 2014–May 2017"
@@ -97,6 +97,7 @@ experience:
       Startup founder and board member. Provided strategic direction and built engineering teams 
       to develop automated devices for heavy-duty applications, including an automatic welding machine 
       for stone cutting saws.
+    technologies_used: "CAD, Control Theory"
 
 publications:
   - title: "A truth-based primal-dual learning approach to reconstruct CT images utilizing the virtual imaging trial platform"
