@@ -32,6 +32,11 @@ description: "M.Sc. research focused on telerobotics, motion planning, non-linea
             </ul>
 
             <div style="margin: 20px 0; text-align: center;">
+             <img src="{{ '/assets/Presentation2.png' | relative_url }}" alt="Phase Trajectory Comparison" style="max-width: 80%; height: auto;">
+             <p style="font-size: 0.9em; color: #666; font-style: italic;">Figure: Schematic of deployed teleoperation.</p>
+            </div>
+
+            <div style="margin: 20px 0; text-align: center;">
                  <video controls style="max-width: 100%; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                     <source src="{{ '/assets/shared.mp4' | relative_url }}" type="video/mp4">
                     Your browser does not support the video tag.
