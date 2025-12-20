@@ -75,8 +75,8 @@ We introduced a novel mathematical concept—the **Arc Length Function**—to es
 </div>
 
 <div class="project-media">
-  <img src="{{ '/assets/arclength-plot.png' | relative_url }}" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
-  <p><em>Figure: Comparison of phase trajectories showing the reduced oscillation achieved by our proposed controller (blue) vs. standard methods (red).</em></p>
+  <img src="{{ '/assets/Untitled1.pdf' | relative_url }}" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
+  <p><em>Figure: Estimated DoA for different nonlinear systems.</em></p>
 </div>
 
 **Relevant Publications:**
