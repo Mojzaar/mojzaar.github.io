@@ -56,6 +56,12 @@ We introduced a novel mathematical concept—the **Arc Length Function**—to es
 * **Contribution:** Proved that minimizing trajectory length correlates with faster settling times and reduced overshoot.
 * **Application:** Validated on cable-driven parallel robots and haptic devices to suppress unwanted vibrations.
 
+
+<div class="project-media">
+  <img src="{{ '/assets/DoA.png' | relative_url }}" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
+  <p><em>Figure: Estimated DoA for different nonlinear systems.</em></p>
+</div>
+
 <div class="project-media">
   <h4>Experimental Demo: Oscillation Damping (Cable Robot)</h4>
   <video width="100%" controls>
@@ -74,10 +80,6 @@ We introduced a novel mathematical concept—the **Arc Length Function**—to es
   <p><em>Video: Experimental oscillation damping controller for delta parallel robots.</em></p>
 </div>
 
-<div class="project-media">
-  <img src="{{ '/assets/Untitled1.pdf' | relative_url }}" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
-  <p><em>Figure: Estimated DoA for different nonlinear systems.</em></p>
-</div>
 
 **Relevant Publications:**
 * **M. Zarei**, A. Kalhor, D. Brake, *"Arc length based maximal Lyapunov functions and domains of attraction estimation for polynomial nonlinear systems,"* Automatica, 2018.
@@ -98,6 +100,11 @@ To achieve realistic force feedback, we required a highly accurate dynamic model
 
 * **Role:** Designed the mechanical structure of the haptic stylus and implemented the control loops.
 * **Tech Stack:** C++, SolidWorks, Haptic Rendering Algorithms.
+
+<div class="project-media">
+  <img src="{{ '/assets/Picture1.jpg' | relative_url }}" alt="Phase Trajectory Comparison" style="width:100%; max-width:600px;">
+  <p><em>Figure: Modified end effectors of the haptic device.</em></p>
+</div>
 
 <div class="project-media">
   <h4>Experimental Demo: VR Dentistry</h4>
