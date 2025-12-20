@@ -1,84 +1,17 @@
-<section class="section experiences-section">
-    <div class="section-header">
-        <h2 class="section-title">Relevant Publications</h2>
-    </div>
-
-    <div class="item">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title" style="color: #315e9a; margin-top: 0;">Arc length based maximal Lyapunov functions and domains of attraction estimation for polynomial nonlinear systems</h3>
-                <div class="time">2018</div>
+{% assign publications = site.data.data.publications %}
+{% if publications %}
+<section class="publications">
+    <h2 class="title">Publications</h2>
+    <div class="publication-items">
+        {% for pub in publications%}
+            <div class="publication-item">
+                <div class="publication-title">
+                    <a href="{{pub.link}}">{{pub.title}}</a>
+                </div>
+                <div class="authors">{{pub.authors}}</div>
+                <div class="conference">{{pub.conference}}</div>   
             </div>
-            <div class="company"><strong>M. Zarei</strong>, A. Kalhor, D. Brake</div>
-        </div>
-        <div class="details">
-            <p>Published in <em>Automatica</em></p>
-        </div>
+        {%endfor%}
     </div>
-
-    <div class="item" style="margin-top: 15px;">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title" style="color: #315e9a; margin-top: 0;">Oscillation damping of nonlinear control systems based on the phase trajectory length concept</h3>
-                <div class="time">2018</div>
-            </div>
-            <div class="company"><strong>M. Zarei</strong>, A. Aflakian, A. Kalhor, M. Tale Masouleh</div>
-        </div>
-        <div class="details">
-            <p>Published in <em>Mechanism and Machine Theory</em></p>
-        </div>
-    </div>
-
-    <div class="item" style="margin-top: 15px;">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title" style="color: #315e9a; margin-top: 0;">An experimental phase trajectory length based oscillation damping impedance control for Novint Falcon haptic device</h3>
-                <div class="time">2018</div>
-            </div>
-            <div class="company"><strong>M. Zarei</strong>, A. Kalhor, M. Tale Masouleh</div>
-        </div>
-        <div class="details">
-            <p>Published in <em>Journal of Mechanical Engineering Science</em></p>
-        </div>
-    </div>
-
-    <div class="item" style="margin-top: 15px;">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title" style="color: #315e9a; margin-top: 0;">Employing phase trajectory length concept as performance index in linear power oscillation damping controllers</h3>
-                <div class="time">2017</div>
-            </div>
-            <div class="company"><strong>M. Zarei</strong>, A. Kalhor, M. Rastegar</div>
-        </div>
-        <div class="details">
-            <p>Published in <em>International Journal of Electrical Power & Energy Systems</em></p>
-        </div>
-    </div>
-
-    <div class="item" style="margin-top: 15px;">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title" style="color: #315e9a; margin-top: 0;">Perturbed tumor immunotherapy domain of attraction estimation via the arc-length function</h3>
-                <div class="time">2018</div>
-            </div>
-            <div class="company"><strong>M. Zarei</strong>, K. Javadi, A. Kalhor</div>
-        </div>
-        <div class="details">
-            <p>Published in <em>International Iranian Conference on Biomedical Engineering (ICBME)</em></p>
-        </div>
-    </div>
-
-    <div class="item" style="margin-top: 15px;">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title" style="color: #315e9a; margin-top: 0;">Stabilization of a two-dof spherical parallel robot via a novel adaptive approach</h3>
-                <div class="time">2018</div>
-            </div>
-            <div class="company">S. Ansari-Rad, <strong>M. Zarei</strong>, et al.</div>
-        </div>
-        <div class="details">
-            <p>Published in <em>International Conference on Robotics and Mechatronics</em></p>
-        </div>
-    </div>
-
 </section>
+{% endif %}
