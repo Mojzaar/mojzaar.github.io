@@ -98,7 +98,7 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
                      <li style="margin-bottom: 8px;">J.H. Valand, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Truth-Based Physics Informed Estimation of Material Composition in Spectral CT,"</em> AAPM, 2024.</li>
                      <li style="margin-bottom: 8px;">S.J. Xia, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Evaluation of unified harmonization of CT images across multiple tasks: A step towards AI generalizability,"</em> Medical Physics, 2025.</li>
                      <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"The role of harmonization: a systematic analysis of various task-based scenarios"</em></li>
-                     <li style="margin-bottom: 8px;">S.J Xia, <strong>Mojtaba Zarei</strong>, ..., et al., <em>"A probabilistic conditional adversarial neural network to reduce imaging variation in radiography,"</em> SPIE Medical Imaging (Best Poster Award), 2021.</li>
+                     <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A probabilistic conditional adversarial neural network to reduce imaging variation in radiography,"</em> SPIE Medical Imaging (Best Poster Award), 2021.</li>
                      <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"A physics-informed deep neural network for harmonization of CT images"</em></li>
                      <li style="margin-bottom: 8px;"><strong>Mojtaba Zarei</strong>, et al., <em>"Harmonizing CT images via physics-based deep neural networks"</em></li>
                 </ul>
