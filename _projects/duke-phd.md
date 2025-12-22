@@ -144,7 +144,7 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
 
             <ul>
                 <li><strong>Work:</strong> Designed and executed virtual clinical trials to benchmark the PCCT against conventional energy-integrating detectors.</li>
-                <li><strong>Outcome:</strong> Quantified the improvements in lung lesion detection and coronary stenosis quantification, providing the data needed to support the adoption of this new technology.</li>
+                <li><strong>Outcome:</strong> Quantified the improvements in lung and bone lesion detection and abdominal CT quantification, providing the data needed to support the adoption of this new technology.</li>
             </ul>
 
             <div style="margin-top: 20px;">
