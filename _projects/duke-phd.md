@@ -150,6 +150,7 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
             <div style="margin-top: 20px;">
                 <h4 style="color: #333;">Relevant Publications:</h4>
                 <ul style="list-style-type: none; padding-left: 0;">
+                <li style="margin-bottom: 8px;">F R. Schwartz, <strong> Mojtaba Zarei,</strong>, ... et al., <em>"Image quality of photon counting and energy integrating chest CT –Prospective head-to-head comparison on same patients ,"</em> European Journal of Radiology, 2023.</li>
                     <li style="margin-bottom: 8px;">C. McCabe, <strong> Mojtaba Zarei,</strong>, ... et al., <em>"A systematic assessment of photon-counting CT for bone mineral density and microarchitecture quantifications,"</em> SPIE Medical Imaging, 2023.</li>
                     <li style="margin-bottom: 8px;">C. McCabe, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Optimization of imaging parameters of an investigational photon-counting CT prototype for lung lesion radiomics,"</em> SPIE Medical Imaging, 2022.</li>
                     <li style="margin-bottom: 8px;">C. McCabe, <strong>Mojtaba Zarei</strong>, ... et al., <em>"The potential of photon-counting CT for the improved precision of lung nodule radiomics,"</em> Physics in Medicine & Biology, 2025.</li>
