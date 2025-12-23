@@ -156,7 +156,7 @@ description: "Ph.D. research bridging formal verification, physics-informed AI, 
                     <li style="margin-bottom: 8px;">F.R. Schwartz, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Technology characterization through diverse evaluation methodologies: application to thoracic imaging in photon-counting computed tomography,"</em> Journal of Thoracic Imaging, 2024.</li>
                     <li style="margin-bottom: 8px;">F. Ria, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Performance assessment of photon counting versus energy integrated CT: concordance of in vivo and phantom measurements,"</em> SPIE Medical Imaging, 2024.</li>
                     <li style="margin-bottom: 8px;">L. Lofino, <strong>Mojtaba Zarei</strong>, ..., et al., <em>"Comparison of image quality of abdominal CT examinations and virtual noncontrast images between photon-counting and energy-integrating detector CT"</em> RSNA 2023</li>
-                    <li style="margin-bottom: 8px;">F. Ria, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Evaluation and extension of in vivo detectability index to deep-learning and photon counting CT techniques,"</em> DukeSpace, 2025.</li>
+                    <li style="margin-bottom: 8px;">F. Ria, <strong>Mojtaba Zarei</strong>, ... et al., <em>"Evaluation and extension of in vivo detectability index to deep-learning and photon counting CT techniques,"</em> RSNA, 2022.</li>
                     <li style="margin-bottom: 8px;">J. Rajagopal, <strong>Mojtaba Zarei</strong>, ..., et al., <em>"Impact of image formation factors on material discrimination in spectral CT"</em></li>
                 </ul>
             </div>
